@@ -1,0 +1,148 @@
+.titulo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 822px;
+    height: 153px;
+    background: url(../../../assets/img/slidecuatro/titulo4.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.textouno {
+    position: absolute;
+    top: 230px;
+    left: 153px;
+    width: 1041px;
+    height: 201px;
+    background: url(../../../assets/img/slidecuatro/textos4_1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btnlupauno {
+    position: absolute;
+    top: 405px;
+    left: 475px;
+    width: 50px;
+    height: 50px;
+    background: url(../../../assets/img/btnlupa.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.btnmasuno {
+    position: absolute;
+    top: 405px;
+    left: 520px;
+    width: 50px;
+    height: 50px;
+    background: url(../../../assets/img/btnmas.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.textodos {
+    position: absolute;
+    top: 470px;
+    left: 268px;
+    width: 639px;
+    height: 201px;
+    background: url(../../../assets/img/slidecuatro/textos4_2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btnlupados {
+    position: absolute;
+    top: 635px;
+    left: 408px;
+    width: 50px;
+    height: 50px;
+    background: url(../../../assets/img/btnlupa.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.referencias {
+    position: absolute;
+    bottom: 60px;
+    left: 140px;
+    width: 520px;
+    height: 30px;
+    background: url(../../../assets/img/slidecuatro/referencias.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.popcontainer {
+    position: absolute;
+    width: 1280px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, .6);
+    mix-blend-mode: multiply;
+}
+
+.pop1 {
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    width: 1119px;
+    height: 743px;
+    background: url(../../../assets/img/slidecuatro/pops4_1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: drop-shadow(0px 0px 15px rgb(0, 0, 0));
+}
+
+.pop2 {
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    width: 1119px;
+    height: 743px;
+    background: url(../../../assets/img/slidecuatro/pops4_2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: drop-shadow(0px 0px 15px rgb(0, 0, 0));
+}
+
+.mas1 {
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    width: 1119px;
+    height: 743px;
+    background: url(../../../assets/img/slidecuatro/mass4_1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: drop-shadow(0px 0px 15px rgb(0, 0, 0));
+}
+
+.btncerrar {
+    position: absolute;
+    top: 90px;
+    right: 120px;
+    width: 50px;
+    height: 50px;
+    background: url(../../../assets/img/btnclose.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}

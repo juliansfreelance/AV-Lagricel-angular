@@ -1,0 +1,124 @@
+.titulo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 927px;
+    height: 155px;
+    background: url(../../../assets/img/slidetres/titulo3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.textouno {
+    position: absolute;
+    top: 239px;
+    left: 118px;
+    width: 927px;
+    height: 155px;
+    background: url(../../../assets/img/slidetres/texto1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.animacion1 {
+    position: absolute;
+    top: 289px;
+    left: 136px;
+    width: 0px;
+    height: 53px;
+    border-top-left-radius: 26px;
+    border-bottom-left-radius: 26px;
+    background: url(../../../assets/img/slidetres/animacion1.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: right center;
+    animation: anima1 .7s ease-in-out;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes anima1 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 295px;
+    }
+}
+
+.porcentaje1 {
+    position: absolute;
+    top: 290px;
+    left: 135px;
+    width: 316px;
+    height: 52px;
+    background: url(../../../assets/img/slidetres/porcentaje1.png);
+    background-size: auto 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.textodos {
+    position: absolute;
+    top: 380px;
+    left: 118px;
+    width: 927px;
+    height: 155px;
+    background: url(../../../assets/img/slidetres/texto2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.animacion2 {
+    position: absolute;
+    top: 431px;
+    left: 134px;
+    width: 0;
+    height: 53px;
+    border-top-left-radius: 26px;
+    border-bottom-left-radius: 26px;
+    background: url(../../../assets/img/slidetres/animacion2.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: right center;
+    animation: anima2 .7s ease-in-out;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes anima2 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 145px;
+    }
+}
+
+.porcentaje2 {
+    position: absolute;
+    top: 431px;
+    left: 135px;
+    width: 316px;
+    height: 52px;
+    background: url(../../../assets/img/slidetres/porcentaje2.png);
+    background-size: auto 85%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.nota {
+    position: absolute;
+    left: 0px;
+    bottom: 100px;
+    width: 1280px;
+    height: 168px;
+    background: url(../../../assets/img/slidetres/nota.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    animation-delay: 2.5s;
+}

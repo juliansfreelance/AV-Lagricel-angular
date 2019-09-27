@@ -1,0 +1,19 @@
+<body class="animated fadeIn">
+    <div class="slide">
+        <app-header></app-header>
+        <div class="titulo"></div>
+
+        <div class="textouno animated bounceInLeft"></div>
+        <div (click)="togglePop1()" class="btnlupauno"></div>
+
+        <div class="textodos animated bounceInRight"></div>
+        <app-footer></app-footer>
+        <div (click)="togglePop2()" class="btnlupados"></div>
+
+        <div *ngIf="contenPop" class="popcontainer animated fadeIn"></div>
+        <div *ngIf="pop1" class="pop1 animated fadeIn"></div>
+        <div *ngIf="pop2" class="pop2 animated fadeIn"></div>
+        <div (click)="closePop()" *ngIf="contenPop" class="btncerrar animated fadeIn"></div>
+
+    </div>
+</body>

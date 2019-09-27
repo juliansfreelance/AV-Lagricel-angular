@@ -1,0 +1,47 @@
+.titulo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1023px;
+    height: 153px;
+    background: url(../../../assets/img/slideseis/titulos6.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.textouno {
+    position: absolute;
+    top: 200px;
+    left: 186px;
+    width: 919px;
+    height: 234px;
+    background: url(../../../assets/img/slideseis/textos6_1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.textodos {
+    position: absolute;
+    top: 476px;
+    left: 186px;
+    width: 884px;
+    height: 222px;
+    background: url(../../../assets/img/slideseis/textos6_2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.referencias {
+    position: absolute;
+    bottom: 60px;
+    left: 185px;
+    width: 417px;
+    height: 38px;
+    background: url(../../../assets/img/slideseis/referencias6.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -1,0 +1,110 @@
+.titulo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 822px;
+    height: 153px;
+    background: url(../../../assets/img/slidecinco/titulos5.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.textouno {
+    position: absolute;
+    top: 206px;
+    left: 187px;
+    width: 980px;
+    height: 255px;
+    background: url(../../../assets/img/slidecinco/testos5_1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btnlupauno {
+    position: absolute;
+    top: 425px;
+    left: 495px;
+    width: 50px;
+    height: 50px;
+    background: url(../../../assets/img/btnmas.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.textodos {
+    position: absolute;
+    top: 470px;
+    left: 187px;
+    width: 980px;
+    height: 255px;
+    background: url(../../../assets/img/slidecinco/textos5_2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btnlupados {
+    position: absolute;
+    top: 685px;
+    left: 495px;
+    width: 50px;
+    height: 50px;
+    background: url(../../../assets/img/btnmas.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.popcontainer {
+    position: absolute;
+    width: 1280px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, .6);
+    mix-blend-mode: multiply;
+}
+
+.pop1 {
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    width: 1119px;
+    height: 743px;
+    background: url(../../../assets/img/slidecinco/pops5_1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: drop-shadow(0px 0px 15px rgb(0, 0, 0));
+}
+
+.pop2 {
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    width: 1119px;
+    height: 743px;
+    background: url(../../../assets/img/slidecinco/pops5_2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: drop-shadow(0px 0px 15px rgb(0, 0, 0));
+}
+
+.btncerrar {
+    position: absolute;
+    top: 90px;
+    right: 120px;
+    width: 50px;
+    height: 50px;
+    background: url(../../../assets/img/btnclose.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}

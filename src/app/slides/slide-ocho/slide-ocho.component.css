@@ -1,0 +1,97 @@
+.titulo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 850px;
+    height: 153px;
+    background: url(../../../assets/img/slideocho/titulos8.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.textouno {
+    position: absolute;
+    top: 240px;
+    left: 100px;
+    width: 939px;
+    height: 73px;
+    background: url(../../../assets/img/slideocho/textos8_1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.textodos {
+    position: absolute;
+    top: 340px;
+    left: 116px;
+    width: 443px;
+    height: 408px;
+    background: url(../../../assets/img/slideocho/textos8_2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.textotres {
+    position: absolute;
+    top: 325px;
+    left: 595px;
+    width: 556px;
+    height: 407px;
+    border-left: 2px solid rgb(20, 93, 201);
+    background: url(../../../assets/img/slideocho/textos8_3.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.btnlupauno {
+    position: absolute;
+    top: 540px;
+    right: 300px;
+    width: 50px;
+    height: 50px;
+    background: url(../../../assets/img/btnmas.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.popcontainer {
+    position: absolute;
+    width: 1280px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, .6);
+    mix-blend-mode: multiply;
+}
+
+.pop1 {
+    position: absolute;
+    top: 20px;
+    left: 80px;
+    width: 1119px;
+    height: 743px;
+    background: url(../../../assets/img/slideocho/pop8_1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: drop-shadow(0px 0px 15px rgb(0, 0, 0));
+}
+
+.btncerrar {
+    position: absolute;
+    top: 90px;
+    right: 120px;
+    width: 50px;
+    height: 50px;
+    background: url(../../../assets/img/btnclose.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}

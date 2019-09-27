@@ -1,0 +1,35 @@
+.titulo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 694px;
+    height: 153px;
+    background: url(../../../assets/img/slidenueve/titulos9.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.textouno {
+    position: absolute;
+    top: 190px;
+    left: 88px;
+    width: 531px;
+    height: 535px;
+    background: url(../../../assets/img/slidenueve/textos9_1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.textodos {
+    position: absolute;
+    top: 252px;
+    left: 355px;
+    width: 778px;
+    height: 383px;
+    background: url(../../../assets/img/slidenueve/textos9_2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}

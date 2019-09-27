@@ -1,0 +1,45 @@
+<footer class="animated bounceInUp">
+    <a routerLink="/slide/1">
+        <div class="btnHome"></div>
+    </a>
+    <a routerLink="/slide/11">
+        <div class="btnRef"></div>
+    </a>
+    <a>
+        <div class="btnIpp"></div>
+    </a>
+
+    <a [routerLink]=" [ '/slide', next ] " *ngIf="next != '12' ">
+        <div class="next">
+            <div class="arrowSliding">
+                <div class="arrow"></div>
+            </div>
+            <div class="arrowSliding delay1">
+                <div class="arrow"></div>
+            </div>
+            <div class="arrowSliding delay2">
+                <div class="arrow"></div>
+            </div>
+            <div class="arrowSliding delay3">
+                <div class="arrow"></div>
+            </div>
+        </div>
+    </a>
+
+    <a [routerLink]=" [ '/slide', prev ] ">
+        <div class="prev">
+            <div class="arrowSliding">
+                <div class="arrow"></div>
+            </div>
+            <div class="arrowSliding delay1">
+                <div class="arrow"></div>
+            </div>
+            <div class="arrowSliding delay2">
+                <div class="arrow"></div>
+            </div>
+            <div class="arrowSliding delay3">
+                <div class="arrow"></div>
+            </div>
+        </div>
+    </a>
+</footer>

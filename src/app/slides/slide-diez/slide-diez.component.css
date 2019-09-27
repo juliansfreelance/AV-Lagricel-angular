@@ -1,0 +1,47 @@
+.titulo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 819px;
+    height: 153px;
+    background: url(../../../assets/img/slidediez/titulos10.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.textouno {
+    position: absolute;
+    top: 223px;
+    left: 175px;
+    width: 282px;
+    height: 463px;
+    background: url(../../../assets/img/slidediez/textos10_1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.textodos {
+    position: absolute;
+    top: 242px;
+    left: 461px;
+    width: 372px;
+    height: 457px;
+    background: url(../../../assets/img/slidediez/textos10_2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.textotres {
+    position: absolute;
+    top: 266px;
+    left: 851px;
+    width: 282px;
+    height: 419px;
+    background: url(../../../assets/img/slidediez/textos10_3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}

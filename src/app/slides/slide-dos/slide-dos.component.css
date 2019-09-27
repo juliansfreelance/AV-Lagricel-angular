@@ -1,0 +1,127 @@
+.titulo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 737px;
+    height: 155px;
+    background: url(../../../assets/img/slidedos/titulos2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.figuraglobo {
+    width: 470px;
+    height: 470px;
+    position: absolute;
+    background: url(../../../assets/img/slidedos/figuraglobo.png);
+    background-size: 100%;
+    top: 235px;
+    left: -45px;
+}
+
+.globo {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top: 270px;
+    left: -10px;
+}
+
+.frontal {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background: url(../../../assets/img/slidedos/frontal.png);
+    top: 0;
+    left: 0;
+    opacity: .5;
+}
+
+.back {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    background: url(../../../assets/img/slidedos/back.png);
+    top: 0;
+    left: 0;
+    opacity: .6;
+}
+
+.mapfront,
+.mapback {
+    border-radius: 300px;
+    width: 340px;
+    height: 340px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    z-index: 4;
+}
+
+.mapfront {
+    background: url(../../../assets/img/slidedos/mapfront.png) repeat-x;
+    -webkit-animation: mapfront_spin 15s linear infinite;
+    animation: mapfront_spin 15s linear infinite;
+}
+
+.mapback {
+    background: url(../../../assets/img/slidedos/mapback.png) repeat-x;
+    position: absolute;
+    -webkit-animation: mapback_spin 15s linear infinite;
+    animation: mapback_spin 15s linear infinite;
+}
+
+@keyframes mapfront_spin {
+    0% {
+        background-position: 1400px 0%;
+    }
+    100% {
+        background-position: 0 0%;
+    }
+}
+
+@keyframes mapback_spin {
+    0% {
+        background-position: 0 0%;
+    }
+    100% {
+        background-position: 1400px 0%;
+    }
+}
+
+.modelo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1280px;
+    height: 800px;
+    background: url(../../../assets/img/slidedos/modelo.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+.texto1 {
+    position: absolute;
+    width: 846px;
+    height: 293px;
+    left: 0px;
+    top: 232px;
+    background: url(../../../assets/img/slidedos/textos2_1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.texto2 {
+    position: absolute;
+    width: 923px;
+    height: 329px;
+    right: 0px;
+    top: 364px;
+    background: url(../../../assets/img/slidedos/textos2_2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+}

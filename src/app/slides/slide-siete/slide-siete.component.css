@@ -1,0 +1,47 @@
+.titulo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 784px;
+    height: 153px;
+    background: url(../../../assets/img/slidesiete/titulos7.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.textouno {
+    position: absolute;
+    top: 236px;
+    left: 184px;
+    width: 482px;
+    height: 504px;
+    background: url(../../../assets/img/slidesiete/textos7_1.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.textodos {
+    position: absolute;
+    top: 236px;
+    left: 657px;
+    width: 466px;
+    height: 400px;
+    background: url(../../../assets/img/slidesiete/textos7_2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo {
+    position: absolute;
+    top: 52px;
+    right: 100px;
+    width: 167px;
+    height: 204px;
+    background: url(../../../assets/img/slidesiete/logos7.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
